@@ -84,4 +84,7 @@
         }
     }
 }
+- (IBAction)clearStatus:(id)sender {
+    [_tfStatus setText:@""];
+}
 @end

@@ -11,4 +11,6 @@
 @interface MainViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextView *tfStatus;
 
+- (IBAction)clearStatus:(id)sender;
+
 @end

@@ -20,7 +20,13 @@
                             </textView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BQ4-8q-yGV">
                                 <items>
-                                    <navigationItem title="Reachability" id="QHM-OK-8lI"/>
+                                    <navigationItem title="Reachability" id="QHM-OK-8lI">
+                                        <barButtonItem key="rightBarButtonItem" title="Clear" id="w5R-hI-zgg">
+                                            <connections>
+                                                <action selector="clearStatus:" destination="GZ1-3Z-kJg" id="P70-Mh-eoH"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
